@@ -53,10 +53,10 @@ def del_student():
             print("student username is deleted.\n")
             return
     print("student is not found.\n")
-print("1. adding students.")
-print("2. show students.")
-print("3. search students.")
-print("4. deleting students")
+print("1. Adding students.")
+print("2. Show students.")
+print("3. Search students.")
+print("4. Deleting students")
 
 choice = input("choose from on of the above.")
 
@@ -70,4 +70,5 @@ elif choice == "4":
     del_student()
 else:
     print("Invalid request")
+
 
