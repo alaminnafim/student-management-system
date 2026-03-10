@@ -70,3 +70,4 @@ elif choice == "4":
     del_student()
 else:
     print("Invalid request")
+
